@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Versão para desktop */
+
+section#login {
+    width: 950px;
+}
+
+section#login > div#imagem {
+    width: 50%;
+}
+
+section#login > div#formulario {
+    width: 50%;
+}
