@@ -72,17 +72,36 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
-div.campo > label {
-    display: none;
-}
-
 form > div.campo {
     display: block;
     width: 100%;
     height: 40px;
     margin: 5px 0;
     background-color: var(--cor1);
-    border-radius: 5px;
+    border: 2px solid var(--cor1);
+    border-right-width: 1px;
+    border-radius: 8px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-12px);
+    border: none;
+    border-radius: 6px;
+    padding-left: 2px;
 }
 
 form > input[type=submit] {
